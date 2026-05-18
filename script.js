@@ -8,5 +8,6 @@ $(document).ready(function() {
         let pEmail = $('<p></p>').text(newEmail).addClass('email');
         let pNim = $('<p></p>').text(newNim).addClass('nim');
 
+        $('#result').append(pNama, pEmail, pNim);
     });
 });
